@@ -28,3 +28,12 @@ The available convertion specifiers are:
 %r: Prints a reversed string
 
 %R: Prints the Rot13 interpretation of a string
+
+The formula is:
+
+% [ param-no $] flags width [ . precision ] type conversion
+or
+% [ param-no $] flags width . * [ param-no $] type conversion
+
+
+For example, in the conversion specifier ‘%-10.8ld’, the ‘-’ is a flag, ‘10’ specifies the field width, the precision is ‘8’, the letter ‘l’ is a type modifier, and ‘d’ specifies the conversion style. (This particular type specifier says to print a long int argument in decimal notation, with a minimum of 8 digits left-justified in a field at least 10 characters wide.)
