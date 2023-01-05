@@ -13,21 +13,27 @@ The available convertion specifiers are:
 
 %s: Prints a string of characters.
 
+%p The void * pointer argument has to be printed in hexadecimal format.
+
 %d: Prints integers.
 
 %i: Prints integers.
 
+%u: Prints unsigned integers.
+
+%x: Prints the hexadecial representation of an unsigned decimal in lowercase letters.
+
+%X:Prints the hexadecial representation of an unsigned decimal in uppercase letters.
+
+%% Prints a percent sign.
+
+The above are mandatory but the below aren't.
+
 %b: Prints the binary representation of an unsigned decimal.
 
-%u: Prints unsigned integers
+%r: Prints a reversed string.
 
-%x: Prints the hexadecial representation of an unsigned decimal in lowercase letters
-
-%X:Prints the hexadecial representation of an unsigned decimal in uppercase letters
-
-%r: Prints a reversed string
-
-%R: Prints the Rot13 interpretation of a string
+%R: Prints the Rot13 interpretation of a string.
 
 The formula is:
 
